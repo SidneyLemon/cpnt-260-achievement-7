@@ -1,0 +1,50 @@
+body {
+  font-size: 24px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(8, 8, 8);
+  
+}
+
+.site-title {
+  font-size: 30px;
+}
+
+a {
+  color: rgb(12, 12, 12);
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
+  border: 1px solid black;
+  background-color: rgb(252, 249, 249);
+  
+}
+
+img {
+  width: 100px;
+  height: initial;
+  
+
+}
+
+div {
+  display: flex;
+}
+
+a:hover {
+  background-color: rgb(10, 10, 10);
+  color: rgb(247, 247, 247);
+}
+
+
+
+@media (min-width: 40em) {
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
